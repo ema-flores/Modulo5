@@ -1,9 +1,5 @@
 package Clase2.PracticaTM;
 
-import java.util.Calendar;
-import java.util.GregorianCalendar;
-import java.util.Locale;
-
 public class Main {
     public static void main(String[] args) {
 
@@ -42,7 +38,7 @@ public class Main {
 
         String s = "John|Paul|George|Ringo";
         char c = '|';
-        int n=0;
+        int n=2;
 
         System.out.println(StringUtil.indexOfN(s,c,n));
     }
